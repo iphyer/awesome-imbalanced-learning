@@ -1,8 +1,20 @@
-# Awesome Imbalanced Learning
+<h1 align="center"> Awesome Imbalanced Learning </h1>
 
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+<p align="center">
+  <img src="https://awesome.re/badge-flat.svg">
+  <img src="https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning">
+  <img src="https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning">
+  <img src="https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning">
+  <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
+</p>
 
-A curated list of awesome imbalanced learning papers, codes, frameworks and libraries. 
+<!-- [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+![Stars](https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning)
+![Forks](https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning)
+![Issues](https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning)
+![License](https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning) -->
+
+**A curated list of awesome imbalanced learning papers, codes, frameworks and libraries.**
 
 **Class-imbalance** (also known as the long-tail problem) is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.
 
@@ -36,32 +48,37 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 
 ### Python
 - [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[Github](https://github.com/scikit-learn-contrib/imbalanced-learn)][[Documentation](https://imbalanced-learn.readthedocs.io/en/stable/)][[Paper](http://10.187.70.34/www.jmlr.org/papers/volume18/16-365/16-365.pdf)] - imbalanced-learn is a python package offering a number of ***re-sampling*** techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn](https://scikit-learn.org/stable/) and is part of [scikit-learn-contrib](https://github.com/scikit-learn-contrib) projects. 
+    
     > :accept: written in python, easy to use.
+- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
 ### R
-- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (support R and Julia).
+- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 - [**caret**](https://cran.r-project.org/web/packages/caret/index.html) [[Documentation](http://topepo.github.io/caret/index.html)][[Github](https://github.com/topepo/caret)] - Contains the implementation of Random under/over-sampling.
 - [**ROSE**](https://cran.r-project.org/web/packages/ROSE/index.html) [[Documentation](https://www.rdocumentation.org/packages/ROSE/versions/0.0-3)] - Contains the implementation of [ROSE](https://journal.r-project.org/archive/2014-1/menardi-lunardon-torelli.pdf) (Random Over-Sampling Examples).
 - [**DMwR**](https://cran.r-project.org/web/packages/DMwR/index.html) [[Documentation](https://www.rdocumentation.org/packages/DMwR/versions/0.4.1)] - Contains the implementation of [SMOTE](https://arxiv.org/pdf/1106.1813.pdf) (Synthetic Minority Over-sampling TEchnique).
 
 ### Java
 - [**KEEL**](https://sci2s.ugr.es/keel/description.php) [[Github](https://github.com/SCI2SUGR/KEEL)][[Paper](https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/0758_Alcalaetal-SoftComputing-Keel1.0.pdf)] - KEEL provides a simple ***GUI based*** on data flow to design experiments with different datasets and computational intelligence algorithms (***paying special attention to evolutionary algorithms***) in order to assess the behavior of the algorithms. This tool includes many widely used imbalanced learning techniques such as (evolutionary) over/under-resampling, cost-sensitive learning, algorithm modification, and ensemble learning methods. 
+    
     > :accept: wide variety of classical classification, regression, preprocessing algorithms included.
 
 ### Scalar
 - [**undersampling**](https://github.com/NestorRV/undersampling) [[Documentation](https://nestorrv.github.io/)][[Github](https://github.com/NestorRV/undersampling)] - A Scala library for ***under-sampling and their ensemble variants*** in imbalanced classification.
 
 ### Julia
-- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection feature (support R and Julia).
+- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
 # Papers
 
 ## Surveys
 
 - [Learning from imbalanced data](https://www.sci-hub.shop/10.1109/tkde.2008.239) (2009, 4700+ citations) - Highly cited, classic survey paper. It systematically reviewed the popular solutions, evaluation metrics, and challenging problems in future research in this area (as of 2009). 
+    
     > :accept: classic work.
 - [Learning from imbalanced data: open challenges and future directions](https://www.researchgate.net/publication/301596547_Learning_from_imbalanced_data_Open_challenges_and_future_directions) (2016, 400+ citations) - This paper concentrates on discussing the open issues and challenges in imbalanced learning, such as extreme class imbalance, dealing imbalance in online/stream learning, multi-class imbalanced learning, and semi/un-supervised imbalanced learning.
 - [Learning from class-imbalanced data: Review of methods and applications](https://www.researchgate.net/publication/311977198_Learning_from_class-imbalanced_data_Review_of_methods_and_applications) (2017, 400+ citations) - A recent exhaustive survey of imbalanced learning methods and applications, a total of 527 papers were included in this study. It provides several detailed taxonomies of existing methods and also the recent trend of this research area.
+    
     > :accept: a systematic survey with detailed taxonomies of existing methods.
 
 ## Deep Learning
@@ -69,56 +86,121 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 - **Surveys**
   - [A systematic study of the class imbalance problem in convolutional neural networks](https://arxiv.org/pdf/1710.05381.pdf) (2018, 330+ citations)
   - [Survey on deep learning with class imbalance](https://www.researchgate.net/publication/332165523_Survey_on_deep_learning_with_class_imbalance) (2019, 50+ citations)
-    > :accept: a recent comprehensive survey of the class imbalance problem in deep learning.
-
+    
+  > :accept: a recent comprehensive survey of the class imbalance problem in deep learning.
+  
 - **Hard example mining**
-  - [Training region-based object detectors with online hard example mining](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf) (CVPR 2016, 840+ citations) - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
-
+  
+- [Training region-based object detectors with online hard example mining](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf) (CVPR 2016, 840+ citations) - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
+  
 - **Loss function engineering**
   - [Training deep neural networks on imbalanced data sets](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets) (IJCNN 2016, 110+ citations) - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
   - [Focal loss for dense object detection](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) [[Code (Unofficial)](https://github.com/clcarwin/focal_loss_pytorch)] (ICCV 2017, 2600+ citations) - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
+    
     > :accept: elegant solution, high influence.
   - [Deep imbalanced attribute classification using visual attention aggregation](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf) [[Code](https://github.com/cvcode18/imbalanced_learning)] (ECCV 2018, 30+ citation)
   - [Imbalanced deep learning by minority class incremental rectification](https://arxiv.org/pdf/1804.10851.pdf) (TPAMI 2018, 60+ citations) - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
   - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[Code](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
   - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[Code](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
-    > :accept: interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
+    
+  > :accept: interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
   - [Class-Balanced Loss Based on Effective Number of Samples](http://10.187.70.34/openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf) (CVPR 2019, 70+ citations) - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
-
+  
 - **Meta-learning**
   - [Learning to model the tail](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf) (NIPS 2017, 70+ citations) - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
   - [Learning to reweight examples for robust deep learning](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf) [[Code](https://github.com/uber-research/learning-to-reweight-examples)] (ICML 2018, 150+ citations) - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
+    
     > :accept: representative work to solve the class imbalance problem through meta-learning.
   - [Meta-weight-net: Learning an explicit mapping for sample weighting](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf) [[Code](https://github.com/xjtushujun/meta-weight-net)] (NIPS 2019) - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
   - [Learning Data Manipulation for Augmentation and Weighting](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf) [[Code](https://github.com/tanyuqian/learning-data-manipulation)] (NIPS 2019)
   - [Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf) [[Code](https://github.com/haebeom-lee/l2b)] (ICLR 2020)
-
+  - [MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler](https://arxiv.org/pdf/2010.08830.pdf) [[Code](https://github.com/ZhiningLiu1998/mesa)] [[Video](https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f)] (NeurIPS 2020) 
+  
+    > :accept: meta-learning-powered ensemble learning
+  
 - **Representation Learning**
   - [Learning deep representation for imbalanced classification](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf) (CVPR 2016, 220+ citations)
   - [Supervised Class Distribution Learning for GANs-Based Imbalanced Classification](https://ieeexplore.ieee.xilesou.top/abstract/document/8970900) (ICDM 2019)
   - [Decoupling Representation and Classifier for Long-tailed Recognition](https://arxiv.org/pdf/1910.09217.pdf) (ICLR 2020)
+    
+    > :accept: interesting findings
+- Generative Modeling of Factorized Representations in Class-Imbalanced Data (NeurIPS 2020, paper not released yet)
+  
+- **Posterior Recalibration**
+  
+- [Posterior Re-calibration for Imbalanced Datasets](https://arxiv.org/pdf/2010.11820.pdf) (NeurIPS 2020)
+  
+- **Semi/Self-supervised Learning**
+  - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/pdf/2006.07529.pdf) [[Code](https://github.com/YyzHarry/imbalanced-semi-self)] [[Video](https://www.youtube.com/watch?v=XltXZ3OZvyI&feature=youtu.be)] (NeurIPS 2020)
+    
+    > :accept: semi-supervised training / self-supervised pre-training helps imbalance learning
+  - [Distribution Aligning Refinery of Pseudo-label for Imbalanced Semi-supervised Learning](https://arxiv.org/pdf/2007.08844.pdf) (NeurIPS 2020)
 
-- **Curriculum learning**
+
+- **Curriculum Learning**
   - [Dynamic Curriculum Learning for Imbalanced Data Classification](http://10.187.70.15/openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf) (ICCV 2019)
 
-- **Two-phase training**
+- **Two-phase Training**
   - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
 
 - **Network Architecture**
   - [BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition](https://arxiv.org/pdf/1912.02413.pdf) (CVPR 2020)
 
+
+## Ensemble Learning
+
+- **General ensemble**
+  - [Self-paced Ensemble](https://arxiv.org/pdf/1909.03500v3.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble)] (ICDE 2020) - Self-paced Ensemble for Highly Imbalanced Massive Data Classification 
+    
+    > :accept: high performance & computational efficiency & widely applicable to different classifiers.
+  - [MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler](https://arxiv.org/pdf/2010.08830.pdf) [[Code](https://github.com/ZhiningLiu1998/mesa)] [[Video](https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f)] (NeurIPS 2020) 
+    
+    > :accept: meta-learning-powered ensemble learning
+- [EasyEnsemble & BalanceCascade](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-IEEE%20TSMCpartB%20Exploratory%20Undersampling%20for%20Class%20Imbalance%20Learning.pdf) [[Code (EasyEnsemble)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_easy_ensemble.py#L30)] [[Code (BalanceCascade)](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L709)] (2008, 1300+ citations) - Parallel ensemble training with RUS (EasyEnsemble) / Cascade ensemble training with RUS while iteratively drops well-classified examples (BalanceCascade) 
+    
+    > :accept: simple but effective solution.
+  
+- **Boosting-based**
+  - [AdaBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1997-JCSS-Schapire-A%20Decision-Theoretic%20Generalization%20of%20On-Line%20Learning%20(AdaBoost).pdf) [[Code](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_weight_boosting.py#L285)] (1995, 18700+ citations) - Adaptive Boosting with C4.5
+  - [DataBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2004-SIGKDD-GuoViktor.pdf) (2004, 570+ citations) - Boosting with Data Generation for Imbalanced Data
+  - [SMOTEBoost](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2003-PKDD-SMOTEBoost-ChawlaLazarevicHallBowyer.pdf) [[Code](https://github.com/dialnd/imbalanced-algorithms/blob/master/smote.py#L94)] (2003, 1100+ citations) - Synthetic Minority Over-sampling TEchnique Boosting 
+    
+    > :accept: classic work.
+  - [MSMOTEBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2011-IEEE%20TSMC%20partC-%20GalarFdezBarrenecheaBustinceHerrera.pdf) (2011, 1300+ citations) - Modified Synthetic Minority Over-sampling TEchnique Boosting
+  - [RAMOBoost](https://www.ele.uri.edu/faculty/he/PDFfiles/ramoboost.pdf) [[Code](https://github.com/dialnd/imbalanced-algorithms/blob/master/ramo.py#L133)] (2010, 140+ citations) - Ranked Minority Over-sampling in Boosting 
+  - [RUSBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2010-IEEE%20TSMCpartA-RUSBoost%20A%20Hybrid%20Approach%20to%20Alleviating%20Class%20Imbalance.pdf) [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_weight_boosting.py#L21)] (2009, 850+ citations) - Random Under-Sampling Boosting 
+    
+    > :accept: classic work.
+- [AdaBoostNC](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2012-wang-IEEE_SMC_B.pdf) (2012, 350+ citations) - Adaptive Boosting with Negative Correlation Learning
+  - [EUSBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2013-galar-PR.pdf) (2013, 210+ citations) - Evolutionary Under-sampling in Boosting
+  
+- **Bagging-based**
+  - [Bagging](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1996-ML-Breiman-Bagging%20Predictors.pdf) [[Code](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_bagging.py#L433)] (1996, 23100+ citations) - Bagging predictors 
+  - [OverBagging & UnderOverBagging & SMOTEBagging & MSMOTEBagging](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2009-IEEE%20CIDM-WangYao.pdf) [[Code (SMOTEBagging)](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L615)] (2009, 290+ citations) - Random Over-sampling / Random Hybrid Resampling / SMOTE / Modified SMOTE with Bagging
+  - [UnderBagging](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2003-PAA-%20New%20Applications%20of%20Ensembles%20of%20Classifiers.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L665)] (2003, 170+ citations) - Random Under-sampling with Bagging 
+
 ## Data resampling
 
 - **Over-sampling**
   - ROS [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_random_over_sampler.py)] - Random Over-sampling 
+  
   - [SMOTE](https://arxiv.org/pdf/1106.1813.pdf) [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_smote.py#L36)] (2002, 9800+ citations) - Synthetic Minority Over-sampling TEchnique 
+    
     > :accept: classic work.
+    
   - [Borderline-SMOTE](https://sci2s.ugr.es/keel/keel-dataset/pdfs/2005-Han-LNCS.pdf) [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_smote.py#L220)] (2005, 1400+ citations) - Borderline-Synthetic Minority Over-sampling TEchnique 
+  
   - [ADASYN](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2008-He-ieee.pdf) [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_adasyn.py)] (2008, 1100+ citations) - ADAptive SYNthetic Sampling
+  
   - [SPIDER](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/stefanowski_selective_2008.pdf) [[Code (Java)](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/Resampling/SPIDER/SPIDER.java#L57)] (2008, 150+ citations) - Selective Preprocessing of Imbalanced Data
+  
   - [Safe-Level-SMOTE](http://10.187.70.30/150.214.190.154/keel/keel-dataset/pdfs/2009-Bunkhumpornpat-LNCS.pdf) [[Code (Java)](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/Resampling/Safe_Level_SMOTE/Safe_Level_SMOTE.java#L58)] (2009, 370+ citations) - Safe Level Synthetic Minority Over-sampling TEchnique
+  
   - [SVM-SMOTE](http://10.187.70.39/ousar.lib.okayama-u.ac.jp/files/public/1/19617/20160528004522391723/IWCIA2009_A1005.pdf) [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_smote.py#L417)] (2009, 120+ citations) - SMOTE based on Support Vectors of SVM 
+  
   - [SMOTE-IPF](https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1824_2015-INS-Saez.pdf) (2015, 180+ citations) - SMOTE with Iterative-Partitioning Filter
+  
+  - 85 variants of SMOTE[[code](https://github.com/analyticalmindsltd/smote_variants)]
   
 - **Under-sampling**
   - RUS [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py)] - Random Under-sampling 
@@ -134,6 +216,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   
 - **Hybrid-sampling**
   - [SMOTE-Tomek & SMOTE-ENN](http://10.187.70.37/150.214.190.154/keel/dataset/includes/catImbFiles/2004-Batista-SIGKDD.pdf) (2004, 2000+ citations) [[Code (SMOTE-Tomek)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/combine/_smote_tomek.py)] [[Code (SMOTE-ENN)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/combine/_smote_enn.py)] - Synthetic Minority Over-sampling TEchnique + Tomek's modification of Condensed Nearest Neighbor/Edited Nearest Neighbor 
+    
     > :accept: extensive experimental evaluation involving 10 different over/under-sampling methods.
   - [SMOTE-RSB](https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1434_2012-Ramentol-KAIS.pdf) (2012, 210+ citations) - Hybrid Preprocessing using SMOTE and Rough Sets Theory
 
@@ -142,31 +225,6 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 - [CSC4.5](https://www.sci-hub.shop/10.1109/tkde.2002.1000348) [[Code (Java)](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/C45CS/C45CS.java#L48)] (2002, 420+ citations) - An instance-weighting method to induce cost-sensitive trees
 - [CSSVM](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-Chawla-IEEE_TSMCB-svm-imbalance.pdf) [[Code (Java)](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/C_SVMCost/svmClassifierCost.java#L60)] (2008, 710+ citations) - Cost-sensitive SVMs for highly imbalanced classification
 - [CSNN](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2006%20-%20IEEE_TKDE%20-%20Zhou_Liu.pdf) [[Code (Java)](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/MLPerceptronBackpropCS/MLPerceptronBackpropCS.java#L49)] (2005, 950+ citations) - Training cost-sensitive neural networks with methods addressing the class imbalance problem.
-
-## Ensemble Learning
-
-- **Boosting-based**
-  - [AdaBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1997-JCSS-Schapire-A%20Decision-Theoretic%20Generalization%20of%20On-Line%20Learning%20(AdaBoost).pdf) [[Code](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_weight_boosting.py#L285)] (1995, 18700+ citations) - Adaptive Boosting with C4.5
-  - [DataBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2004-SIGKDD-GuoViktor.pdf) (2004, 570+ citations) - Boosting with Data Generation for Imbalanced Data
-  - [SMOTEBoost](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2003-PKDD-SMOTEBoost-ChawlaLazarevicHallBowyer.pdf) [[Code](https://github.com/dialnd/imbalanced-algorithms/blob/master/smote.py#L94)] (2003, 1100+ citations) - Synthetic Minority Over-sampling TEchnique Boosting 
-    > :accept: classic work.
-  - [MSMOTEBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2011-IEEE%20TSMC%20partC-%20GalarFdezBarrenecheaBustinceHerrera.pdf) (2011, 1300+ citations) - Modified Synthetic Minority Over-sampling TEchnique Boosting
-  - [RAMOBoost](https://www.ele.uri.edu/faculty/he/PDFfiles/ramoboost.pdf) [[Code](https://github.com/dialnd/imbalanced-algorithms/blob/master/ramo.py#L133)] (2010, 140+ citations) - Ranked Minority Over-sampling in Boosting 
-  - [RUSBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2010-IEEE%20TSMCpartA-RUSBoost%20A%20Hybrid%20Approach%20to%20Alleviating%20Class%20Imbalance.pdf) [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_weight_boosting.py#L21)] (2009, 850+ citations) - Random Under-Sampling Boosting 
-    > :accept: classic work.
-  - [AdaBoostNC](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2012-wang-IEEE_SMC_B.pdf) (2012, 350+ citations) - Adaptive Boosting with Negative Correlation Learning
-  - [EUSBoost](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2013-galar-PR.pdf) (2013, 210+ citations) - Evolutionary Under-sampling in Boosting
-
-- **Bagging-based**
-  - [Bagging](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1996-ML-Breiman-Bagging%20Predictors.pdf) [[Code](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_bagging.py#L433)] (1996, 23100+ citations) - Bagging predictors 
-  - [OverBagging & UnderOverBagging & SMOTEBagging & MSMOTEBagging](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2009-IEEE%20CIDM-WangYao.pdf) [[Code (SMOTEBagging)](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L615)] (2009, 290+ citations) - Random Over-sampling / Random Hybrid Resampling / SMOTE / Modified SMOTE with Bagging
-  - [UnderBagging](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2003-PAA-%20New%20Applications%20of%20Ensembles%20of%20Classifiers.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L665)] (2003, 170+ citations) - Random Under-sampling with Bagging 
-
-- **Other forms of ensemble**
-  - [EasyEnsemble & BalanceCascade](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-IEEE%20TSMCpartB%20Exploratory%20Undersampling%20for%20Class%20Imbalance%20Learning.pdf) [[Code (EasyEnsemble)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_easy_ensemble.py#L30)] [[Code (BalanceCascade)](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L709)] (2008, 1300+ citations) - Parallel ensemble training with RUS (EasyEnsemble) / Cascade ensemble training with RUS while iteratively drops well-classified examples (BalanceCascade) 
-    > :accept: simple but effective solution.
-  - [Self-paced Ensemble](https://arxiv.org/pdf/1909.03500.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble)] (ICDE 2020) - Training Effective Ensemble on Imbalanced Data by Self-paced Harmonizing Classification Hardness 
-    > :accept: high performance & computational efficiency & widely applicable to different classifiers.
 
 ## Anomaly Detection
 
@@ -185,7 +243,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 
 # Others
 
-## Imbalanced Datasets
+## 1. Imbalanced Datasets
 
 | ID | Name |	Repository & Target |	Ratio	| #S | #F |
 -|-|-|-|-|-
@@ -219,9 +277,24 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 
 Note: This collection of datasets is from [imblearn.datasets.fetch_datasets](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.datasets.fetch_datasets.html#imblearn.datasets.fetch_datasets).
 
+## 2. imbalanced databases 
+
+https://github.com/gykovacs/mldb
+
+In this repo, there are 140+  KEEL data:
+
+https://github.com/gykovacs/mldb/tree/master/mldb/data/classification
+
 ## Other Resources
-- [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning)
-- [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
-- [imbalanced-algorithms](https://github.com/dialnd/imbalanced-algorithms) - Python-based implementations of algorithms for learning on imbalanced data.
-- [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler) - A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.
-- [class_imbalance](https://github.com/wangz10/class_imbalance) - Jupyter Notebook presentation for class imbalance in binary classification.
+
+- Code
+  - [imbalanced-algorithms](https://github.com/dialnd/imbalanced-algorithms) - Python-based implementations of algorithms for learning on imbalanced data.
+  - [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler) - A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.
+  - [class_imbalance](https://github.com/wangz10/class_imbalance) - Jupyter Notebook presentation for class imbalance in binary classification.
+  - [Multi-class-with-imbalanced-dataset-classification](https://github.com/javaidnabi31/Multi-class-with-imbalanced-dataset-classification) - Perform multi-class classification on imbalanced 20-news-group dataset.
+  
+- Paper list
+  - [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning)
+
+- Slides
+  - [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
