@@ -1,0 +1,46 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "badgeTemplate": "<a href=\"https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-\"><img src=\"https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg\"></a>",
+  "contributors": [
+    {
+      "login": "ZhiningLiu1998",
+      "name": "Zhining Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26108487?v=4",
+      "profile": "http://zhiningliu.com",
+      "contributions": [
+        "code",
+        "maintenance",
+        "translation"
+      ]
+    },
+    {
+      "login": "AshinZeng",
+      "name": "曾阿信",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37720752?v=4",
+      "profile": "https://github.com/AshinZeng",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "wjun0830",
+      "name": "WonJun Moon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31557552?v=4",
+      "profile": "https://wjun0830.github.io/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "awesome-imbalanced-learning",
+  "projectOwner": "ZhiningLiu1998",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}
